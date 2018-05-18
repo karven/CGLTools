@@ -1,0 +1,16 @@
+PODS:
+  - CGLTools (0.1.0)
+
+DEPENDENCIES:
+  - CGLTools (from `../`)
+
+EXTERNAL SOURCES:
+  CGLTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGLTools: 9c5288b7a608382250ddf4e7e9a3196e2335efda
+
+PODFILE CHECKSUM: 4257bd6dd23bd22e740dd60cc8576929013ddc7a
+
+COCOAPODS: 1.5.0

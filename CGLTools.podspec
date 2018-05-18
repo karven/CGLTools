@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CGLTools'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CGLTools.'
+  s.version          = '1.0.0'
+  s.summary          = '常用类的分类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+常用类(NSObject, NSString, UIButton, UIColor, UIImage, UIView)的分类
                        DESC
 
   s.homepage         = 'https://github.com/karven/CGLTools'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CGLTools/Classes/**/*'
+  s.source_files = 'CGLTools/*'
   
   # s.resource_bundles = {
   #   'CGLTools' => ['CGLTools/Assets/*.png']

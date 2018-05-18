@@ -1,0 +1,6 @@
+framework module CGLTools {
+  umbrella header "CGLTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
