@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CGLTools/*'
+  s.source_files = 'CGLTools/**/*'
   
   # s.resource_bundles = {
   #   'CGLTools' => ['CGLTools/Assets/*.png']
