@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGLTools_Example' do
+  pod 'CGLTools', :path => '../'
+
+  target 'CGLTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
