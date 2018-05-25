@@ -1,5 +1,5 @@
 PODS:
-  - CGLTools (0.1.0)
+  - CGLTools (1.0.0)
 
 DEPENDENCIES:
   - CGLTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CGLTools: 9c5288b7a608382250ddf4e7e9a3196e2335efda
+  CGLTools: 7fedd2180896ed648772491b5cdee9d29d398f6a
 
 PODFILE CHECKSUM: 4257bd6dd23bd22e740dd60cc8576929013ddc7a
 

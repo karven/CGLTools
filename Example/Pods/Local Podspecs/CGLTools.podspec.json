@@ -1,8 +1,8 @@
 {
   "name": "CGLTools",
-  "version": "0.1.0",
-  "summary": "A short description of CGLTools.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "常用类的分类",
+  "description": "常用类(NSObject, NSString, UIButton, UIColor, UIImage, UIView)的分类",
   "homepage": "https://github.com/karven/CGLTools",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/karven/CGLTools.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CGLTools/Classes/**/*"
+  "source_files": "CGLTools/**/*"
 }

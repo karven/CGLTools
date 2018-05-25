@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B74740ACFEE38323958D2659C9CD88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0D6232ECD0864AC3AE345D1E21B99D2C /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D3990960588699DEC4444E5BEEF3C9 /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04051E5E72F611884444DEDAFCD347B4 /* NSObject+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CFD2D67B4260C55E9A8B6F7C165637 /* NSObject+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		096A1CE1C4ED1188578300A61471B0C4 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = A0603FFF2FA389EAF32A3C0F788852E0 /* UIImage+Ext.m */; };
+		1C054BC23BF95B4919B3782288EA5941 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A24486D970639943920FD9B5A00190 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C692993511334DFCC2E5A93641A794C /* Pods-CGLTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A12D45CF083A28C560D6E1870EA9BC83 /* Pods-CGLTools_Tests-dummy.m */; };
+		20E90C1B9352EB456CC7E49F47DF2BEE /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC57682DC663870C69999F82823854 /* NSString+Ext.m */; };
 		39BE31549DBDB97368622C07102009C1 /* Pods-CGLTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93BB948670E7380BB05D37E8D5DE46B /* Pods-CGLTools_Example-dummy.m */; };
+		412E117BBD4E881E756BB1631C892CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		447009A28483620C9CF546F419927022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A75C123089258F69D2209BE6CD8D2FB /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECB2F2A6617BCB879BDD0AED9173430 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B91B3A57C9890F7C33C7EB6E5EFF702 /* UIButton+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B86012499DC5CC96B923F5B2FC4766 /* UIButton+Ext.m */; };
-		5CE407FB267CE7C3C0FE12F7135B30C1 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 52707AE7E7F9D1BC05D5EA8BB893859D /* UIColor+Ext.m */; };
-		6497BBB2A38252698EAFE9FEB9A5772B /* CGLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC446F3A1BF449D11832753893DF18B /* CGLTools-dummy.m */; };
-		6C217BE650C0F816F9F76D2487C7621A /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F52AC76DC6783395DF04A21BE085A /* UIView+Ext.m */; };
-		77066AD80A71F437FDCF97D316EC8932 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBCAD322C1EDC62A2F300A732802AF /* UIImage+Ext.m */; };
-		79A5BDE853EB0C7867D7551F7C4B2419 /* UIImage+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = ED11C4D50A404A49E57BCE74DC3C882E /* UIImage+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BCD60CBA935AEC1BAAAE5E723DADEB0 /* CGLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17841635998EFBA9A3279C78A5B9E5EA /* CGLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AE107D468D900CD847AE5BDD61D9E1 /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 881E3E572A6904E5825BE3CDC123F1A9 /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D3BC6EC6A67CCEC8F8B4E5CCA3F3BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		855A6226FDE9580283A313189BBC84F7 /* UIView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F016774EC283CA324D6CF39D60005ECF /* UIView+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8698A634DC8DFDF8EB65B9F223DBD4F1 /* Pods-CGLTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20116514835A51C4D11691B0F166BB4B /* Pods-CGLTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D4202404CCE796B690D8093713D2F4 /* UIView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AC2DFB826828C920C90275AD8F3F65 /* UIView+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC45227D45DE6BECB3BEB711FE5CB1AD /* NSObject+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA687ECC384F7716FBAA20CB1E119BB /* NSObject+Ext.m */; };
-		B99BEA5E72DB185CBA19FFF27DA432CB /* UIButton+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9EFD90D1D811FA4599566F443F25B0 /* UIButton+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		985724AC3AEB486C7968DC6D1A5DAAC5 /* UIButton+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB628F408F88716E2967808C0A6DA8 /* UIButton+Ext.m */; };
 		B9B72B043ABB7A9200452EBFE3AF7DB6 /* Pods-CGLTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0434DE9C9E06FCE3347B3246909F3A4 /* Pods-CGLTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C33342C34D350B4EF29CA68AD617408A /* NSObject+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA51B23376F495285C519BF56E1804B /* NSObject+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C50D5075F97DA1062C736279FCA7D4AC /* CGLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F01A36262DFD64BB8A159DE000A7B8 /* CGLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA08353552660B97D5C49E0FF39940A6 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBF90E19F7850E623C8B1D2A71B0AE3 /* NSString+Ext.m */; };
+		C0F2A42B3ABD07C25E2D8922B0E21843 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CABB485BA6F630B5864DC172EBCCC /* UIColor+Ext.m */; };
+		C562EFD120D45542B2DC7CFCAFD488DD /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = CE42708169F7915C7564E25DC31C3533 /* Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9DDA35B7576C6A0F99FCF4A5B433119 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5E267906D6D2CE471641F168F5490 /* UIView+Ext.m */; };
+		CCB34545C6186A323B4594CD245B9D89 /* UIButton+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 385F04CCA7028BA02568D3C7A3F6A866 /* UIButton+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D128E53E79B6D3BD724207C508DA407A /* CGLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723BB97CA84B5B47A98C8C3B030783A6 /* CGLTools-dummy.m */; };
+		D76A9DAF7095B002C5FFCB2ECB466EF8 /* NSObject+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF8B547AEFE32DED092FFBFF1B4DAE /* NSObject+Ext.m */; };
+		E5619E42E8A7C48643BA71D8E2CBE754 /* UIImage+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B492F3F78F6812F3F4481222D071CF /* UIImage+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,58 +43,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44C61719288E308297813972BCC9D826;
+			remoteGlobalIDString = B019D36A8B4EAE844991D3CF003B60C5;
 			remoteInfo = CGLTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02F19810B631232C9E3AA33E86FC31D6 /* Pods-CGLTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGLTools_Tests.modulemap"; sourceTree = "<group>"; };
-		0C9EFD90D1D811FA4599566F443F25B0 /* UIButton+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Ext.h"; path = "CGLTools/Classes/UIButton+Ext.h"; sourceTree = "<group>"; };
-		0DF2C90CCE8489AB089BB3F110539C19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D3990960588699DEC4444E5BEEF3C9 /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Ext.h"; path = "CGLTools/Classes/NSString+Ext.h"; sourceTree = "<group>"; };
-		14687A32C6B2B67F3A0897CB8E11899B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1CA51B23376F495285C519BF56E1804B /* NSObject+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Ext.h"; path = "CGLTools/Classes/NSObject+Ext.h"; sourceTree = "<group>"; };
+		17841635998EFBA9A3279C78A5B9E5EA /* CGLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGLTools-umbrella.h"; sourceTree = "<group>"; };
 		20116514835A51C4D11691B0F166BB4B /* Pods-CGLTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGLTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		215AA0836DD4A9E22EE7D26042F4B910 /* Pods-CGLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23592B6E8597E480E6026FABF47A0AC0 /* Pods-CGLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CBAB429B46185323BD98D107596A8D5 /* CGLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CGLTools.modulemap; sourceTree = "<group>"; };
+		2AF4A1B9D856AE72662A60A7EB71BD08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36B041FBE51C8330B581D4517AAF4B9C /* Pods-CGLTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGLTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		385F04CCA7028BA02568D3C7A3F6A866 /* UIButton+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Ext.h"; path = "CGLTools/Classes/UIButton+Ext.h"; sourceTree = "<group>"; };
+		39DC57682DC663870C69999F82823854 /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Ext.m"; path = "CGLTools/Classes/NSString+Ext.m"; sourceTree = "<group>"; };
 		3A15C70B28A7F6C4FA85C435CE173DAB /* Pods-CGLTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGLTools_Example.modulemap"; sourceTree = "<group>"; };
 		3A445481C62BB04B0A82D32363F0BD45 /* Pods-CGLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48C652BFD74E23561115E394CBD5DA7C /* Pods-CGLTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGLTools_Example-resources.sh"; sourceTree = "<group>"; };
-		4ED023340459DEAE2C1ACC7AF8A53833 /* CGLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGLTools-prefix.pch"; sourceTree = "<group>"; };
-		52707AE7E7F9D1BC05D5EA8BB893859D /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Ext.m"; path = "CGLTools/Classes/UIColor+Ext.m"; sourceTree = "<group>"; };
+		522CABB485BA6F630B5864DC172EBCCC /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Ext.m"; path = "CGLTools/Classes/UIColor+Ext.m"; sourceTree = "<group>"; };
+		54DA71EF08A355D918F0336618F1FC95 /* CGLTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGLTools.xcconfig; sourceTree = "<group>"; };
+		56FB628F408F88716E2967808C0A6DA8 /* UIButton+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Ext.m"; path = "CGLTools/Classes/UIButton+Ext.m"; sourceTree = "<group>"; };
 		5ABED81152F27385A9F04575F9D966CA /* Pods-CGLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5ECB2F2A6617BCB879BDD0AED9173430 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Ext.h"; path = "CGLTools/Classes/UIColor+Ext.h"; sourceTree = "<group>"; };
-		607F52AC76DC6783395DF04A21BE085A /* UIView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "CGLTools/Classes/UIView+Ext.m"; sourceTree = "<group>"; };
-		63AC2DFB826828C920C90275AD8F3F65 /* UIView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Ext.h"; path = "CGLTools/Classes/UIView+Ext.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		723BB97CA84B5B47A98C8C3B030783A6 /* CGLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGLTools-dummy.m"; sourceTree = "<group>"; };
 		73963003B139876227EFE81570A577C9 /* Pods_CGLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F4FD6E98FA787136ABB45519C9FEA6 /* CGLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8487229AC2323291484B10240C73C557 /* CGLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CGLTools.podspec; sourceTree = "<group>"; };
+		84E739F4FDEEC404C190529A0A99BAF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854DCC41A999F3472D53ADE71E6AC6E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C1431B9E38C48DCCAC8C9DE2AEF5D3 /* CGLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGLTools-prefix.pch"; sourceTree = "<group>"; };
+		881E3E572A6904E5825BE3CDC123F1A9 /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Ext.h"; path = "CGLTools/Classes/NSString+Ext.h"; sourceTree = "<group>"; };
 		8D26587DA3792FE69DD3C38BD54946EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FA687ECC384F7716FBAA20CB1E119BB /* NSObject+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Ext.m"; path = "CGLTools/Classes/NSObject+Ext.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC446F3A1BF449D11832753893DF18B /* CGLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGLTools-dummy.m"; sourceTree = "<group>"; };
+		9EA5E267906D6D2CE471641F168F5490 /* UIView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "CGLTools/Classes/UIView+Ext.m"; sourceTree = "<group>"; };
 		A00136C8FB3504AD95270FFC23CE8AF3 /* Pods-CGLTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGLTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0603FFF2FA389EAF32A3C0F788852E0 /* UIImage+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Ext.m"; path = "CGLTools/Classes/UIImage+Ext.m"; sourceTree = "<group>"; };
 		A12D45CF083A28C560D6E1870EA9BC83 /* Pods-CGLTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGLTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		A401C4E4FB62984BA6D2F127283981DE /* CGLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CGLTools.podspec; sourceTree = "<group>"; };
-		A74E52E606C3D56D820E8D2AF74D55B3 /* CGLTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGLTools.xcconfig; sourceTree = "<group>"; };
-		A8B86012499DC5CC96B923F5B2FC4766 /* UIButton+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Ext.m"; path = "CGLTools/Classes/UIButton+Ext.m"; sourceTree = "<group>"; };
+		A5A24486D970639943920FD9B5A00190 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Ext.h"; path = "CGLTools/Classes/UIColor+Ext.h"; sourceTree = "<group>"; };
 		A93BB948670E7380BB05D37E8D5DE46B /* Pods-CGLTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGLTools_Example-dummy.m"; sourceTree = "<group>"; };
-		A9F01A36262DFD64BB8A159DE000A7B8 /* CGLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGLTools-umbrella.h"; sourceTree = "<group>"; };
+		A9E46C6AB1E1E835A646F3E578E8CD38 /* CGLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CGLTools.modulemap; sourceTree = "<group>"; };
 		B0434DE9C9E06FCE3347B3246909F3A4 /* Pods-CGLTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BECBCAD322C1EDC62A2F300A732802AF /* UIImage+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Ext.m"; path = "CGLTools/Classes/UIImage+Ext.m"; sourceTree = "<group>"; };
-		CDC96F876A98DA0CF1477C2C0B2A3DC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C2D91B3A5F556A95BC3342903D5196BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C5B492F3F78F6812F3F4481222D071CF /* UIImage+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Ext.h"; path = "CGLTools/Classes/UIImage+Ext.h"; sourceTree = "<group>"; };
+		CE42708169F7915C7564E25DC31C3533 /* Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = CGLTools/Classes/Tools.h; sourceTree = "<group>"; };
 		CF246D4AE36FB2D07871D7942D08BBE6 /* Pods-CGLTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGLTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0CFD2D67B4260C55E9A8B6F7C165637 /* NSObject+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Ext.h"; path = "CGLTools/Classes/NSObject+Ext.h"; sourceTree = "<group>"; };
 		D8B9DD9CE6D09AD80921DC37A4D61E91 /* Pods-CGLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7A7336E25F2C1E7FF3A2B7B1CAF1F8 /* Pods-CGLTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGLTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCEFE2C590A12CA996D015421DC22604 /* Pods-CGLTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGLTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E668E851B81D8C48818FD078CE53C5B5 /* Pods_CGLTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C964DCB45968E57B42D829571F3E96 /* Pods-CGLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED11C4D50A404A49E57BCE74DC3C882E /* UIImage+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Ext.h"; path = "CGLTools/Classes/UIImage+Ext.h"; sourceTree = "<group>"; };
-		FEBF90E19F7850E623C8B1D2A71B0AE3 /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Ext.m"; path = "CGLTools/Classes/NSString+Ext.m"; sourceTree = "<group>"; };
+		F016774EC283CA324D6CF39D60005ECF /* UIView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Ext.h"; path = "CGLTools/Classes/UIView+Ext.h"; sourceTree = "<group>"; };
+		F2FF8B547AEFE32DED092FFBFF1B4DAE /* NSObject+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Ext.m"; path = "CGLTools/Classes/NSObject+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +107,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E32101F051FA3DE45A2FC71745BA2AB6 /* Frameworks */ = {
+		8C41457643C46A88A743599F75A3F603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B74740ACFEE38323958D2659C9CD88 /* Foundation.framework in Frameworks */,
+				412E117BBD4E881E756BB1631C892CFE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,23 +126,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33D26A17C3DF8C7D53C7BDCAAADE9486 /* Development Pods */ = {
+		3DF4F75525C097892D032019AD51173B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2612DB030C7665ECB74AD3F8D3CEA61 /* CGLTools */,
+				A9E46C6AB1E1E835A646F3E578E8CD38 /* CGLTools.modulemap */,
+				54DA71EF08A355D918F0336618F1FC95 /* CGLTools.xcconfig */,
+				723BB97CA84B5B47A98C8C3B030783A6 /* CGLTools-dummy.m */,
+				86C1431B9E38C48DCCAC8C9DE2AEF5D3 /* CGLTools-prefix.pch */,
+				17841635998EFBA9A3279C78A5B9E5EA /* CGLTools-umbrella.h */,
+				84E739F4FDEEC404C190529A0A99BAF0 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CGLTools";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				33D26A17C3DF8C7D53C7BDCAAADE9486 /* Development Pods */,
+				B6F4A41CD492E8AC4289CCC8B113775E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				FF046AFC6E0FAE360F3893564959288C /* Products */,
 				FCFC70D8BFAB6AB5FA204B2276F56C8D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7ECAC7C4883CD48B6B11490E65B48338 /* CGLTools */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFD2D67B4260C55E9A8B6F7C165637 /* NSObject+Ext.h */,
+				F2FF8B547AEFE32DED092FFBFF1B4DAE /* NSObject+Ext.m */,
+				881E3E572A6904E5825BE3CDC123F1A9 /* NSString+Ext.h */,
+				39DC57682DC663870C69999F82823854 /* NSString+Ext.m */,
+				CE42708169F7915C7564E25DC31C3533 /* Tools.h */,
+				385F04CCA7028BA02568D3C7A3F6A866 /* UIButton+Ext.h */,
+				56FB628F408F88716E2967808C0A6DA8 /* UIButton+Ext.m */,
+				A5A24486D970639943920FD9B5A00190 /* UIColor+Ext.h */,
+				522CABB485BA6F630B5864DC172EBCCC /* UIColor+Ext.m */,
+				C5B492F3F78F6812F3F4481222D071CF /* UIImage+Ext.h */,
+				A0603FFF2FA389EAF32A3C0F788852E0 /* UIImage+Ext.m */,
+				F016774EC283CA324D6CF39D60005ECF /* UIView+Ext.h */,
+				9EA5E267906D6D2CE471641F168F5490 /* UIView+Ext.m */,
+				DBBB2413C9B55B524964CEF7A4348F76 /* Pod */,
+				3DF4F75525C097892D032019AD51173B /* Support Files */,
+			);
+			name = CGLTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		853071DF2B8ABAB81C9B3E390D548D0D /* Pods-CGLTools_Example */ = {
@@ -179,44 +210,20 @@
 			path = "Target Support Files/Pods-CGLTools_Tests";
 			sourceTree = "<group>";
 		};
+		B6F4A41CD492E8AC4289CCC8B113775E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECAC7C4883CD48B6B11490E65B48338 /* CGLTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C28C45F4D5324FB61598FE0A9A9A4D2C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A401C4E4FB62984BA6D2F127283981DE /* CGLTools.podspec */,
-				CDC96F876A98DA0CF1477C2C0B2A3DC4 /* LICENSE */,
-				14687A32C6B2B67F3A0897CB8E11899B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D2612DB030C7665ECB74AD3F8D3CEA61 /* CGLTools */ = {
-			isa = PBXGroup;
-			children = (
-				1CA51B23376F495285C519BF56E1804B /* NSObject+Ext.h */,
-				8FA687ECC384F7716FBAA20CB1E119BB /* NSObject+Ext.m */,
-				11D3990960588699DEC4444E5BEEF3C9 /* NSString+Ext.h */,
-				FEBF90E19F7850E623C8B1D2A71B0AE3 /* NSString+Ext.m */,
-				0C9EFD90D1D811FA4599566F443F25B0 /* UIButton+Ext.h */,
-				A8B86012499DC5CC96B923F5B2FC4766 /* UIButton+Ext.m */,
-				5ECB2F2A6617BCB879BDD0AED9173430 /* UIColor+Ext.h */,
-				52707AE7E7F9D1BC05D5EA8BB893859D /* UIColor+Ext.m */,
-				ED11C4D50A404A49E57BCE74DC3C882E /* UIImage+Ext.h */,
-				BECBCAD322C1EDC62A2F300A732802AF /* UIImage+Ext.m */,
-				63AC2DFB826828C920C90275AD8F3F65 /* UIView+Ext.h */,
-				607F52AC76DC6783395DF04A21BE085A /* UIView+Ext.m */,
-				C28C45F4D5324FB61598FE0A9A9A4D2C /* Pod */,
-				FC5014F207B703437574CB6E20A49937 /* Support Files */,
-			);
-			name = CGLTools;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -227,18 +234,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FC5014F207B703437574CB6E20A49937 /* Support Files */ = {
+		DBBB2413C9B55B524964CEF7A4348F76 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2CBAB429B46185323BD98D107596A8D5 /* CGLTools.modulemap */,
-				A74E52E606C3D56D820E8D2AF74D55B3 /* CGLTools.xcconfig */,
-				9EC446F3A1BF449D11832753893DF18B /* CGLTools-dummy.m */,
-				4ED023340459DEAE2C1ACC7AF8A53833 /* CGLTools-prefix.pch */,
-				A9F01A36262DFD64BB8A159DE000A7B8 /* CGLTools-umbrella.h */,
-				0DF2C90CCE8489AB089BB3F110539C19 /* Info.plist */,
+				8487229AC2323291484B10240C73C557 /* CGLTools.podspec */,
+				C2D91B3A5F556A95BC3342903D5196BE /* LICENSE */,
+				2AF4A1B9D856AE72662A60A7EB71BD08 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CGLTools";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FCFC70D8BFAB6AB5FA204B2276F56C8D /* Targets Support Files */ = {
@@ -263,25 +266,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FC9AEA2E00EFE652DBDC989AB2722C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C50D5075F97DA1062C736279FCA7D4AC /* CGLTools-umbrella.h in Headers */,
-				C33342C34D350B4EF29CA68AD617408A /* NSObject+Ext.h in Headers */,
-				0D6232ECD0864AC3AE345D1E21B99D2C /* NSString+Ext.h in Headers */,
-				B99BEA5E72DB185CBA19FFF27DA432CB /* UIButton+Ext.h in Headers */,
-				4A75C123089258F69D2209BE6CD8D2FB /* UIColor+Ext.h in Headers */,
-				79A5BDE853EB0C7867D7551F7C4B2419 /* UIImage+Ext.h in Headers */,
-				A4D4202404CCE796B690D8093713D2F4 /* UIView+Ext.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		65D730BC589F75C516C4669B732A7CB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B9B72B043ABB7A9200452EBFE3AF7DB6 /* Pods-CGLTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F240492A3342BA8849167B34711311E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCD60CBA935AEC1BAAAE5E723DADEB0 /* CGLTools-umbrella.h in Headers */,
+				04051E5E72F611884444DEDAFCD347B4 /* NSObject+Ext.h in Headers */,
+				75AE107D468D900CD847AE5BDD61D9E1 /* NSString+Ext.h in Headers */,
+				C562EFD120D45542B2DC7CFCAFD488DD /* Tools.h in Headers */,
+				CCB34545C6186A323B4594CD245B9D89 /* UIButton+Ext.h in Headers */,
+				1C054BC23BF95B4919B3782288EA5941 /* UIColor+Ext.h in Headers */,
+				E5619E42E8A7C48643BA71D8E2CBE754 /* UIImage+Ext.h in Headers */,
+				855A6226FDE9580283A313189BBC84F7 /* UIView+Ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,23 +300,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		44C61719288E308297813972BCC9D826 /* CGLTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF4232E230B9AEA2D76649DA00B73D1E /* Build configuration list for PBXNativeTarget "CGLTools" */;
-			buildPhases = (
-				DDF510258262F81E02BF0920900AEB2A /* Sources */,
-				E32101F051FA3DE45A2FC71745BA2AB6 /* Frameworks */,
-				4FC9AEA2E00EFE652DBDC989AB2722C8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CGLTools;
-			productName = CGLTools;
-			productReference = 75F4FD6E98FA787136ABB45519C9FEA6 /* CGLTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		AE6396AE43646B72E60FC42D7B683251 /* Pods-CGLTools_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 310924D5AF9533058AABDDFFDFE6CC64 /* Build configuration list for PBXNativeTarget "Pods-CGLTools_Tests" */;
@@ -329,6 +316,23 @@
 			name = "Pods-CGLTools_Tests";
 			productName = "Pods-CGLTools_Tests";
 			productReference = 73963003B139876227EFE81570A577C9 /* Pods_CGLTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B019D36A8B4EAE844991D3CF003B60C5 /* CGLTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A4D75EC9C3CB7C575C6558ABCBF454 /* Build configuration list for PBXNativeTarget "CGLTools" */;
+			buildPhases = (
+				7192C70C52A1E0E8E23347F0860480D7 /* Sources */,
+				8C41457643C46A88A743599F75A3F603 /* Frameworks */,
+				9F240492A3342BA8849167B34711311E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGLTools;
+			productName = CGLTools;
+			productReference = 75F4FD6E98FA787136ABB45519C9FEA6 /* CGLTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0F85BACED8B37BCA98DAFD8B0D9DC29 /* Pods-CGLTools_Example */ = {
@@ -370,7 +374,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44C61719288E308297813972BCC9D826 /* CGLTools */,
+				B019D36A8B4EAE844991D3CF003B60C5 /* CGLTools */,
 				D0F85BACED8B37BCA98DAFD8B0D9DC29 /* Pods-CGLTools_Example */,
 				AE6396AE43646B72E60FC42D7B683251 /* Pods-CGLTools_Tests */,
 			);
@@ -386,25 +390,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7192C70C52A1E0E8E23347F0860480D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D128E53E79B6D3BD724207C508DA407A /* CGLTools-dummy.m in Sources */,
+				D76A9DAF7095B002C5FFCB2ECB466EF8 /* NSObject+Ext.m in Sources */,
+				20E90C1B9352EB456CC7E49F47DF2BEE /* NSString+Ext.m in Sources */,
+				985724AC3AEB486C7968DC6D1A5DAAC5 /* UIButton+Ext.m in Sources */,
+				C0F2A42B3ABD07C25E2D8922B0E21843 /* UIColor+Ext.m in Sources */,
+				096A1CE1C4ED1188578300A61471B0C4 /* UIImage+Ext.m in Sources */,
+				C9DDA35B7576C6A0F99FCF4A5B433119 /* UIView+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88F1700405E5AB86B970579231034F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				39BE31549DBDB97368622C07102009C1 /* Pods-CGLTools_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDF510258262F81E02BF0920900AEB2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6497BBB2A38252698EAFE9FEB9A5772B /* CGLTools-dummy.m in Sources */,
-				AC45227D45DE6BECB3BEB711FE5CB1AD /* NSObject+Ext.m in Sources */,
-				EA08353552660B97D5C49E0FF39940A6 /* NSString+Ext.m in Sources */,
-				5B91B3A57C9890F7C33C7EB6E5EFF702 /* UIButton+Ext.m in Sources */,
-				5CE407FB267CE7C3C0FE12F7135B30C1 /* UIColor+Ext.m in Sources */,
-				77066AD80A71F437FDCF97D316EC8932 /* UIImage+Ext.m in Sources */,
-				6C217BE650C0F816F9F76D2487C7621A /* UIView+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +418,7 @@
 		2604451AB687DD2C05B5DDF00247A811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CGLTools;
-			target = 44C61719288E308297813972BCC9D826 /* CGLTools */;
+			target = B019D36A8B4EAE844991D3CF003B60C5 /* CGLTools */;
 			targetProxy = DF2629E26DF594063F010804C2ED6E64 /* PBXContainerItemProxy */;
 		};
 		AE25C910C4688A4955DAB544975FCE67 /* PBXTargetDependency */ = {
@@ -681,9 +685,9 @@
 			};
 			name = Release;
 		};
-		BB8FB3FD376E1A497C54F86B4F8CBC7A /* Debug */ = {
+		C824610BCD537293D4D38F4DEC32460B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A74E52E606C3D56D820E8D2AF74D55B3 /* CGLTools.xcconfig */;
+			baseConfigurationReference = 54DA71EF08A355D918F0336618F1FC95 /* CGLTools.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -711,9 +715,9 @@
 			};
 			name = Debug;
 		};
-		C30CC468944728132F877F5151B8EBD7 /* Release */ = {
+		FDD4C15AE86C45BA1BF6897D4E81CC16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A74E52E606C3D56D820E8D2AF74D55B3 /* CGLTools.xcconfig */;
+			baseConfigurationReference = 54DA71EF08A355D918F0336618F1FC95 /* CGLTools.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -772,11 +776,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF4232E230B9AEA2D76649DA00B73D1E /* Build configuration list for PBXNativeTarget "CGLTools" */ = {
+		67A4D75EC9C3CB7C575C6558ABCBF454 /* Build configuration list for PBXNativeTarget "CGLTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB8FB3FD376E1A497C54F86B4F8CBC7A /* Debug */,
-				C30CC468944728132F877F5151B8EBD7 /* Release */,
+				C824610BCD537293D4D38F4DEC32460B /* Debug */,
+				FDD4C15AE86C45BA1BF6897D4E81CC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

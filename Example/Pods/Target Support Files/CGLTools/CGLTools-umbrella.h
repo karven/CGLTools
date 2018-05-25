@@ -12,6 +12,7 @@
 
 #import "NSObject+Ext.h"
 #import "NSString+Ext.h"
+#import "Tools.h"
 #import "UIButton+Ext.h"
 #import "UIColor+Ext.h"
 #import "UIImage+Ext.h"

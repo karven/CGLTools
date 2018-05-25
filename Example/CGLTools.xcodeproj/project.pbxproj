@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9E894D6720B7F4CE0058F8C2 /* QQ20180525-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E894D6620B7F4CD0058F8C2 /* QQ20180525-0.jpg */; };
+		9E894D6F20B80AF10058F8C2 /* QQ20180525-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E894D6E20B80AF10058F8C2 /* QQ20180525-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +60,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		610FC57C8D1E58A1FCCFBCEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		610FC57C8D1E58A1FCCFBCEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6BD5C1DDA3A4A1856DD9A8CF /* Pods_CGLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77554E705664A2BDDE300B8F /* Pods-CGLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGLTools_Example/Pods-CGLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		854933BD8B52D33E69305A47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		854933BD8B52D33E69305A47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A17B820E19A164617BDF09E7 /* CGLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CGLTools.podspec; path = ../CGLTools.podspec; sourceTree = "<group>"; };
+		9E894D6620B7F4CD0058F8C2 /* QQ20180525-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QQ20180525-0.jpg"; sourceTree = "<group>"; };
+		9E894D6E20B80AF10058F8C2 /* QQ20180525-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QQ20180525-1.jpg"; sourceTree = "<group>"; };
+		A17B820E19A164617BDF09E7 /* CGLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGLTools.podspec; path = ../CGLTools.podspec; sourceTree = "<group>"; };
 		E6E0A216F9C80A914C3A06CF /* Pods-CGLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGLTools_Tests/Pods-CGLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EECEC716A3D9A203B8E614A5 /* Pods-CGLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGLTools_Example/Pods-CGLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +147,8 @@
 		6003F593195388D20070C39A /* Example for CGLTools */ = {
 			isa = PBXGroup;
 			children = (
+				9E894D6E20B80AF10058F8C2 /* QQ20180525-1.jpg */,
+				9E894D6620B7F4CD0058F8C2 /* QQ20180525-0.jpg */,
 				6003F59C195388D20070C39A /* CGLAppDelegate.h */,
 				6003F59D195388D20070C39A /* CGLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -247,6 +253,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = karven;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7Y265XQHMM;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,9 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E894D6F20B80AF10058F8C2 /* QQ20180525-1.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9E894D6720B7F4CE0058F8C2 /* QQ20180525-0.jpg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,12 +497,17 @@
 			baseConfigurationReference = 77554E705664A2BDDE300B8F /* Pods-CGLTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7Y265XQHMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CGLTools/CGLTools-Prefix.pch";
 				INFOPLIST_FILE = "CGLTools/CGLTools-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zanjiahao.CGLTools-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37f72a35-ccd6-4124-b6f4-5832e42cebd4";
+				PROVISIONING_PROFILE_SPECIFIER = "通用Profile文件";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +517,16 @@
 			baseConfigurationReference = EECEC716A3D9A203B8E614A5 /* Pods-CGLTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CGLTools/CGLTools-Prefix.pch";
 				INFOPLIST_FILE = "CGLTools/CGLTools-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zanjiahao.CGLTools-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
